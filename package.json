@@ -1,0 +1,37 @@
+{
+  "name": "dagrunner",
+  "version": "0.0.1",
+  "description": "dag task runner based puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangqiangplus/dagrunner.git"
+  },
+  "keywords": [
+    "puppeteer"
+  ],
+  "author": "wangqiangplus@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wangqiangplus/dagrunner/issues"
+  },
+  "homepage": "https://github.com/wangqiangplus/dagrunner#readme",
+  "dependencies": {
+    "moment": "^2.29.3",
+    "puppeteer": "^14.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^12.4.1"
+  },
+  "lint-staged": {
+    "lib/**/*.js": [
+      "npx eslint --fix"
+    ]
+  }
+}
