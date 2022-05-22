@@ -1,9 +1,23 @@
 # 🍔DAG Task Runner
-dag task runner based [puppeteer](https://github.com/puppeteer/puppeteer)
+dag task runner
 
 ## Example
 
+1. install dependencies
+
 ```
 $ npm install
-$ node example/base.js
+```
+
+2. build
+
+```
+$ npm run build
+$ npm run build:watch
+```
+
+3. run
+```
+$ node test/apiNode.js
+$ node test/webNode.js
 ```
