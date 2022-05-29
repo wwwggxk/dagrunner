@@ -21,3 +21,13 @@ $ npm run build:watch
 $ node test/apiNode.js
 $ node test/webNode.js
 ```
+
+## support node
+
+- api request
+- export file
+- script execute
+- web access
+- delay timer
+- element selector
+- element events
